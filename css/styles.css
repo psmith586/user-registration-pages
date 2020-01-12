@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Be+Vietnam|Modak&display=swap');
+
+/*
+fonts:
+
+
+
+    font-family: 'Modak', cursive;
+
+    font-family: 'Be Vietnam', sans-serif;
+
+    font-family: 'Baloo Bhai', cursive;
+
+
+*/
+
+h1{
+   font-family: 'Modak', cursive;
+   font-size: 5em;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: none;
+    width: 80%;
+    text-align: center;
+    height: 50vh;
+    font-family: 'Be Vietnam', sans-serif;
+    margin: 10em auto;
+}
+
+.page-content{
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 40px;  
+}
+
+.sub-btn{
+    padding: 5px;
+}
+
+input[type=file]{
+    display: none; 
+}
+
+.file-btn{
+    justify-content: space-around !important;
+    align-items: center !important;
+    text-align: center !important;
+    display: flex !important;
+    float: none !important;
+    width: 100% !important;
+    padding: 10px !important;
+}
+
+.img-btn{
+    margin: 5px !important;
+}

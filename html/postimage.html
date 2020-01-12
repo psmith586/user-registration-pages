@@ -1,0 +1,45 @@
+<!--written by Phillip Smith-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <script rel="text/javascript" src="../js/javascript.js"></script>
+</head>
+<body>
+  <div class="container main-content">
+    <div class ="row">
+      <h1>Post Image</h1>
+      <form id="postimg" onsubmit="return validatePost();">
+        <div class="form-group page-content">
+          <div class="col-8">    
+            <div>
+              <label for="title">Title:</label>
+              <input type="text" class="form-control"  id="title"></input>
+            </div>
+            <div>
+              <label for="desc">Description:</label>
+              <input type="text" class="form-control" id="desc"></input>
+            </div>
+            <div class="img-btn custom-file">
+              <input type="file" id="imgFile" name="imgFile" class="custom-file-input"></input>  
+              <span class="btn btn-primary btn-md file-btn custom-file" onclick="getFile();">
+              Select Image
+              </span>   
+            </div> 
+            <div>
+              <label>Please Accept our <a href="#">Acceptible Use Policy</a></label>
+              <input type="checkbox" id="usepolicy" required></input>
+            </div>
+            <div class="sub-btn">
+              <input type="submit" value="Submit Post" id="submit" class="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off"></input>
+            </div>  
+          </div>
+        </div>
+      </form>         
+    </div>
+  </div>
+</body>
+</html>

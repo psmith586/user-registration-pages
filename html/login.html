@@ -1,0 +1,35 @@
+<!--written by Phillip Smith-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <script rel="text/javascript" src="../js/javascript.js"></script>
+</head>
+<body>
+  <div class="container main-content">
+    <div class="row">
+      <h1>User Login</h1>
+      <form name="loginForm" id="login" onsubmit="return validateLogin();">
+        <div class="form-group page-content">
+          <div class="col-6">  
+            <div>
+              <label for="uname">Username:</label>
+              <input type="text" class="form-control" id="uname" name="uname"></input>
+            </div>
+            <div>
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" name="pwd"></input>
+            </div>
+            <div class="sub-btn">
+              <input id="submit" type="submit" value="Submit" class="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off"></input>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>  
+</body>
+</html>
